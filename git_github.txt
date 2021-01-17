@@ -1,0 +1,51 @@
+1. git clone <link>
+# This clone the repository of github to local machine.
+
+
+--------------------------------------Useful terminal commands------------------------
+2. touch <file name>
+#create a file name in the given directory
+
+3. code <file name>
+#open that file in default IDE
+
+4. cat <file name> 
+# look the file in the terminal
+
+---------------------------------End of terminal command-----------------
+
+---------------------------------git and github essentials---------------
+ 5. git add <file name> 
+ #It adds the file to the recent version of our repository
+
+ 6. git commit -m "Any message you want"
+ # It means that all the things that we have added so far are finalized and 
+ these are the changes that I want to added to my repository
+
+ 7. git push
+ #It push everything that is in our local repository to our github repository.
+
+
+ ********************* add and commit***vs************push
+ So, add means that put all the changes to the updated version and committing means 
+ that we want to finalize those changes. 
+ However, Push means allow other to see my changes on the server.
+
+ **********************push vs pull************************
+ 8. git pull
+ #It means that we will download the most updated version of the project from the server.
+
+9. In VS, ctrl + J 
+#Open the terminal from the Editor
+
+
+
+*********************************Merge Conflicts *******************************************
+When multiple made changes to the same things, there will be merge conflicts and github will gives us the error messages. 
+@@@@ How to deal with merge conflicts?
+So, the answer is VS code gives us some UX to solve the issue, but we can manually need to solve this issue.
+
+
+***************************************************************************************************
+10. git commit -am "text message"
+#This will add and commit at the same time, no need to add and commit in two separate lines.
